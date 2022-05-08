@@ -1,0 +1,16 @@
+.DS_Store
+data/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/project/
+project/target/
+project/plugins/project/
+.history
+.cache
+.lib/
+.idea/*
+/.bsp/sbt.json
+.metals/
