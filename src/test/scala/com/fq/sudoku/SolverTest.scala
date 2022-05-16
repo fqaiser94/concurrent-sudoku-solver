@@ -368,7 +368,8 @@ class SolverTest extends CatsEffectSuite {
   val solvers: List[Solver[IO]] =
     List(
       CatsEffectDeferredRefRaceSolver,
-      CatsEffectQueueSolver
+      CatsEffectQueueSolver,
+      FS2StreamSolver
     )
 
   solvers.foreach { solver =>
